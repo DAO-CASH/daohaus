@@ -16,6 +16,7 @@ pragma solidity 0.5.3;
  * to protect against it, check out our blog post
  * https://blog.openzeppelin.com/reentrancy-after-istanbul/[Reentrancy After Istanbul].
  */
+ 
 contract ReentrancyGuard {
     // Booleans are more expensive than uint256 or any type that takes up a full
     // word because each write operation emits an extra SLOAD to first read the
